@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding: 0;	
+}
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #54527ae0;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 4px 0;
+    box-shadow: 0px 10px 30px #00000066;
+    background-color: white;
+}
+
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{}
+
+.align-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 22px 37px;
+    display: block;
+    font-weight: 300;
+}
+nav ul li a:hover{
+    background-color: #68678a7d;
+    color: #fff;
+}
+
+section{
+    padding: 100px 0;
+}
+
+
+.signup{
+    width: 35%;
+    color: #fff;
+    padding: 50px;
+    border-radius: 58px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #5a588370, #4c4a6e7a);
+    box-shadow: 23px 23px 82px #403e5d, -23px -23px 82px #686697;
+}
+.signup-form-section{}
+
+form{}
+form input, form textarea{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background: hsl(242deg 17% 43%);
+    padding-left: 19px;
+}
+form strong{
+    display: block;
+    font-size: 20px;
+    margin: 14px 0px -3px;
+    font-weight: 300;
+}
+form label{
+    font-size: 18px;
+    margin-right: 7px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+
+form input[type="radio"], 
+form input[type="checkbox"]
+{
+	width: auto;
+}
+
+form input[type="submit"]{
+	
+width: auto;
+	
+background: #5c5b7f;
+	
+font-size: 15px;
+	
+text-transform: uppercase;
+	
+padding: 10px 21px;
+}
